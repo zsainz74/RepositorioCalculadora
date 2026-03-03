@@ -24,7 +24,8 @@ public class Calculadora {
    }
 
    public int divide() {	  
-       int resul = num1 / num2;
+       int resul = 0;
+       if (num2!=0){resul = num1 / num2;}
        return resul;
    }
    
