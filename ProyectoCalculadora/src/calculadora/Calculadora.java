@@ -28,5 +28,6 @@ public class Calculadora {
        if (num2!=0){resul = num1 / num2;}
        return resul;
    }
-   
+    public holarep(){Sytem.out.println("holarep");}
 }
+
